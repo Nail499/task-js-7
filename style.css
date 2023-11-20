@@ -1,0 +1,41 @@
+table{
+    width: 1200px;
+    
+}
+th{
+    text-align: left;
+    font-size: 33px;
+}
+td{
+    font-size: 27px;
+}
+table,th,td{
+    border: 1px solid #b6b6b6dd;
+    border-collapse: collapse;
+}
+th,td{
+    padding: 32px;
+}
+
+.tablemain{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.inputmain{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 70px 0;
+}
+.inputs{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.inputs input{
+    padding: 10px;
+}
+.inputs button{
+    padding: 10px 35px;
+}
